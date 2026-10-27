@@ -1,0 +1,125 @@
+:root {
+  --academic-ink: var(--global-text-color, #20242b);
+  --academic-muted: var(--global-text-color-light, #5f6874);
+  --academic-rule: color-mix(in srgb, var(--academic-ink) 14%, transparent);
+  --academic-wash: color-mix(in srgb, var(--global-theme-color, #1f6f8b) 8%, transparent);
+  --academic-accent: var(--global-theme-color, #1f6f8b);
+}
+
+.academic-kicker {
+  color: var(--academic-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
+
+.academic-lede {
+  font-size: clamp(1.12rem, 2vw, 1.35rem);
+  line-height: 1.62;
+  max-width: 48rem;
+}
+
+.academic-note {
+  background: var(--academic-wash);
+  border-left: 3px solid var(--academic-accent);
+  border-radius: 0.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+}
+
+.academic-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1.4rem 0 2rem;
+}
+
+.academic-card {
+  border: 1px solid var(--academic-rule);
+  border-radius: 0.45rem;
+  padding: 1.15rem;
+}
+
+.academic-card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.55rem;
+}
+
+.academic-card p:last-child {
+  margin-bottom: 0;
+}
+
+.academic-stat {
+  color: var(--academic-accent);
+  display: block;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.academic-label {
+  color: var(--academic-muted);
+  display: block;
+  font-size: 0.84rem;
+  margin-top: 0.3rem;
+}
+
+.academic-project-figure {
+  background: #fff;
+  border: 1px solid var(--academic-rule);
+  border-radius: 0.45rem;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.academic-project-figure img {
+  display: block;
+  height: auto;
+  max-height: 34rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+.academic-project-figure figcaption {
+  border-top: 1px solid var(--academic-rule);
+  color: #4f5864;
+  font-size: 0.83rem;
+  line-height: 1.5;
+  padding: 0.7rem 0.9rem;
+}
+
+.academic-meta {
+  color: var(--academic-muted);
+  font-size: 0.9rem;
+}
+
+.academic-timeline {
+  border-left: 1px solid var(--academic-rule);
+  margin: 1.5rem 0 2rem 0.35rem;
+  padding-left: 1.25rem;
+}
+
+.academic-timeline > div {
+  margin-bottom: 1.35rem;
+  position: relative;
+}
+
+.academic-timeline > div::before {
+  background: var(--academic-accent);
+  border: 3px solid var(--global-bg-color, #fff);
+  border-radius: 50%;
+  content: "";
+  height: 0.72rem;
+  left: -1.66rem;
+  position: absolute;
+  top: 0.3rem;
+  width: 0.72rem;
+}
+
+@media (max-width: 576px) {
+  .academic-lede {
+    font-size: 1.06rem;
+  }
+}

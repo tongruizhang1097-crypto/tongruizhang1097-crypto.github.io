@@ -1,0 +1,175 @@
+cv:
+  name: Tongrui Zhang
+  label: PhD Student
+  email: ""
+  location: Tianjin, China
+  image: assets/img/profile.jpg
+  summary: PhD student at the College of Artificial Intelligence, Nankai University, studying how embodied systems can build reliable spatial understanding from incomplete and changing sensory observations. Current interests connect visual perception, localization, spatial representation, uncertainty-aware sensor fusion, map matching, and mobile-robot navigation. Academic email is written as 1120260297 [at] mail.nankai.edu.cn to reduce automated harvesting.
+
+  social_networks:
+    - network: ORCID
+      username: 0009-0007-1650-7075
+    - network: GitHub
+      username: tongruizhang1097-crypto
+
+  sections:
+    Education:
+      - institution: Nankai University
+        area: Artificial Intelligence
+        studyType: PhD
+        location: Tianjin, China
+        date: 2026-09 – Present
+        summary: College of Artificial Intelligence. Advisor — Professor Jianda Han.
+
+      - institution: University of Calgary
+        area: Mechanical Engineering (Energy and Environment)
+        studyType: MEng
+        location: Calgary, Canada
+        date: 2026-06
+        summary: Degree formally awarded in June 2026.
+
+      - institution: Dalian Maritime University
+        area: Mechanical Design, Manufacturing and Automation
+        studyType: BE
+        location: Dalian, China
+        date: 2024
+        summary: Joint education program with the University of Houston.
+
+      - institution: University of Houston
+        area: Mechanical Engineering
+        studyType: BS
+        location: Houston, United States
+        date: 2024
+        summary: Joint education program with Dalian Maritime University.
+
+    Research Interests:
+      - name: Perception and spatial intelligence for embodied systems
+        icon: fa-solid fa-compass
+        keywords: "Learning-Based Visual Perception, Visual Localization, Spatial Representation, Uncertainty-Aware Multi-Sensor Fusion, Visual Navigation, Map Matching"
+
+    Research Experience:
+      - company: Battery System Safety for Electric Vehicles
+        position: Team Member
+        location: Research project advised by Prof. Xinping Qiu, Tsinghua University
+        start_date: 2022-01
+        end_date: 2023-11
+        highlights:
+          - Curated battery performance and fault data for model development and validation.
+          - Implemented truncated-SVD cubature Kalman filtering for state-of-charge estimation.
+          - Developed an online least-squares support vector machine workflow for progressive fault diagnosis.
+
+      - company: Amphibious Biomimetic Autonomous Underwater Vehicle
+        position: Team Member
+        location: Dalian Maritime University
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - Contributed to structural design, control-system development, and battery-system testing.
+          - Project received a first-class national award in the 1st World University Underwater Robots Competition.
+
+      - company: Safety Guard — Vibration Measurement Analyzer
+        position: Team Member
+        location: Nankai University
+        start_date: 2021-01
+        end_date: 2021-10
+        highlights:
+          - Worked on MEMS-based vibration measurement, modular hardware, and FFT-based monitoring.
+          - Project received a national bronze award in the 7th China International College Students' Internet+ Innovation and Entrepreneurship Competition.
+
+    Publications:
+      - title: A Method for Predicting the Remaining Life of Lithium-Ion Batteries Based on an Improved Dempster–Shafer Evidence Theory Framework
+        authors:
+          - Tongrui Zhang
+          - Hao Sun
+        publisher: Energies 18(13), 3370
+        releaseDate: 2025-06-26
+        url: https://doi.org/10.3390/en18133370
+
+      - title: Research on Model Prediction of Remaining Service Life of Lithium-Ion Batteries Based on Chaotic Time Series
+        authors:
+          - Tongrui Zhang
+          - Hao Sun
+        publisher: Electronics 14(11), 2280
+        releaseDate: 2025-06-03
+        url: https://doi.org/10.3390/electronics14112280
+
+      - title: Robust State of Charge Estimation for Lithium-Ion Batteries in Variable Temperatures Using Truncated Singular Value Decomposition Cubature Kalman Filter Algorithm
+        authors:
+          - Tongrui Zhang
+          - Ce Huang
+          - Qiujin Zhu
+        publisher: International Journal of Electrochemical Science 19(5), 100515
+        releaseDate: 2024-05
+        url: https://doi.org/10.1016/j.ijoes.2024.100515
+
+      - title: Battery Fault Diagnosis Method Based on Online Least Squares Support Vector Machine
+        authors:
+          - Tongrui Zhang
+          - Ran Li
+          - Yongqin Zhou
+        publisher: Energies 16(21), 7273
+        releaseDate: 2023-10-26
+        url: https://doi.org/10.3390/en16217273
+
+      - title: A 3D U-Net Based on a Vision Transformer for Radar Semantic Segmentation
+        authors:
+          - Tongrui Zhang
+          - Yunsheng Fan
+        publisher: Sensors 23(24), 9630
+        releaseDate: 2023-12-05
+        url: https://doi.org/10.3390/s23249630
+
+    Patent Application:
+      - name: A Device and Method for Joint SOC and SOH Estimation of Lithium-Ion Batteries
+        date: 2022
+        summary: Published Chinese invention patent application CN202210656043.X. The supplied CNIPA notice records publication and entry into substantive examination on 29 September 2022; no claim is made about grant status.
+
+    Awards:
+      - title: First-class National Award
+        authors:
+          - World University Underwater Robots Competition
+        date: 2022
+        awarder: 1st World University Underwater Robots Competition
+        summary: 1st World University Underwater Robots Competition; amphibious biomimetic autonomous underwater vehicle project.
+
+      - title: Provincial Second Prize
+        authors:
+          - China Undergraduate Mathematical Contest in Modeling
+        date: 2022
+        awarder: China Undergraduate Mathematical Contest in Modeling
+        summary: China Undergraduate Mathematical Contest in Modeling; ancient-glass composition analysis project.
+
+      - title: National Third Prize
+        authors:
+          - Mathematical Modeling Competition in Three Northeastern Provinces
+        date: 2022
+        awarder: Mathematical Modeling Competition in Three Northeastern Provinces
+        summary: Mathematical Modeling Competition in Three Northeastern Provinces; COVID-19 isolation-resource modeling project.
+
+      - title: National Bronze Award
+        authors:
+          - China International College Students' Internet+ Innovation and Entrepreneurship Competition
+        date: 2021
+        awarder: 7th China International College Students' Internet+ Innovation and Entrepreneurship Competition
+        summary: 7th China International College Students' Internet+ Innovation and Entrepreneurship Competition; vibration measurement analyzer project.
+
+    Experience:
+      - company: Tianjin Focus Metal Products Co., Ltd.
+        position: Assistant to Project Manager
+        location: Tianjin, China
+        start_date: 2022-06
+        end_date: 2022-08
+
+      - company: Zhonglian Tiantong Technology (Tianjin) Co., Ltd.
+        position: Laboratory Technician
+        location: Tianjin, China
+        start_date: 2021-07
+        end_date: 2021-08
+
+    Skills:
+      - name: Engineering and analysis tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "MATLAB, SolidWorks, AutoCAD, Excel"
+      - name: Research methods evidenced in completed work
+        icon: fa-solid fa-microscope
+        keywords: "Deep Learning, Radar Semantic Segmentation, Support Vector Machines, Kalman Filtering, Dempster–Shafer Fusion, YOLOv8, Model Pruning, Edge Deployment"
