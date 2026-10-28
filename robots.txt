@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tongruizhang1097-crypto.github.io/sitemap.xml
+
