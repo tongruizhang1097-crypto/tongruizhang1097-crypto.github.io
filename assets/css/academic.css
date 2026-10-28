@@ -124,12 +124,6 @@
   }
 }
 
-/* Keep journal names and access labels legible in the bibliography output. */
-.publications .periodical em::after {
-  content: "\00a0";
-  white-space: pre;
-}
-
 .academic-cv-download {
   display: inline-block;
   font-weight: 600;
