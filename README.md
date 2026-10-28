@@ -8,7 +8,7 @@ The site content was prepared from four journal-paper PDFs, an independently ver
 
 The web CV and regenerated public PDF deliberately exclude personal phone numbers, private or obsolete email addresses, street addresses, student identifiers, and third-party contact details. The owner approved public use of the portrait and three thesis-derived images on 27 October 2026.
 
-No remote repository has been created and no content has been deployed.
+The reviewed site is published from the public repository [`tongruizhang1097-crypto/tongruizhang1097-crypto.github.io`](https://github.com/tongruizhang1097-crypto/tongruizhang1097-crypto.github.io) and is available at <https://tongruizhang1097-crypto.github.io/>. The custom workflow builds al-folio on `main` and publishes the generated static site from `gh-pages`.
 
 ## Local development
 
