@@ -2,7 +2,7 @@
 layout: page
 title: Battery Diagnostics and Prognostics
 description: Four studies on temperature-aware state estimation, battery fault diagnosis, nonlinear degradation modeling, and evidence-fusion-based remaining-life prediction.
-img: assets/img/projects/battery-testbench.png
+img: assets/img/projects/battery-testbench-thumb.webp
 importance: 2
 category: research
 related_publications: false
@@ -15,7 +15,7 @@ related_publications: false
 <p class="academic-lede">Four peer-reviewed studies approach battery health management from different angles: temperature-aware state-of-charge estimation, progressive fault classification, nonlinear remaining-life prediction, and reliability-aware fusion of data-driven and model-based estimators.</p>
 
 <figure class="academic-project-figure">
-  <img src="{{ '/assets/img/projects/battery-testbench.png' | relative_url }}" alt="Battery test system used for fault-data collection">
+  <img loading="lazy" decoding="async" src="{{ '/assets/img/projects/battery-testbench.webp' | relative_url }}" alt="Battery test system used for fault-data collection">
   <figcaption>Battery testing equipment shown in the 2023 fault-diagnosis paper (CC BY 4.0).</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ The paper's contribution statement assigns methodology and original-draft prepar
 The 2025 <em>Electronics</em> study treats battery degradation as a chaotic time series. Mutual information selects delay time; Cao's method selects embedding dimension; maximum Lyapunov exponents verify chaotic behavior; and phase-space reconstruction supplies inputs to an SVM. Using NASA B0005, B0006, B0007, and B0018 cells, the cross-battery B0018 experiment reports **R² = 0.89** and **RMSE = 0.58%**.
 
 <figure class="academic-project-figure">
-  <img src="{{ '/assets/img/projects/battery-rul.png' | relative_url }}" alt="Remaining-useful-life prediction curves for NASA battery B0005 at several training-set sizes">
+  <img loading="lazy" decoding="async" src="{{ '/assets/img/projects/battery-rul.webp' | relative_url }}" alt="Remaining-useful-life prediction curves for NASA battery B0005 at several training-set sizes">
   <figcaption>Prediction behavior as the training window expands for NASA battery B0005 (CC BY 4.0).</figcaption>
 </figure>
 

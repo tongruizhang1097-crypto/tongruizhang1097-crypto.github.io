@@ -2,7 +2,7 @@
 layout: page
 title: Radar Semantic Segmentation
 description: 3D radar heatmap segmentation with a Vision Transformer dimension-collapse module.
-img: assets/img/projects/radar-architecture.png
+img: assets/img/projects/radar-architecture-thumb.webp
 importance: 1
 category: research
 related_publications: false
@@ -15,7 +15,7 @@ related_publications: false
 <p class="academic-lede">3D Collapse U-Net performs dense semantic segmentation directly on range–azimuth–velocity radar heatmaps, retaining information that is discarded when radar data are reduced to sparse point clouds.</p>
 
 <figure class="academic-project-figure">
-  <img src="{{ '/assets/img/projects/radar-architecture.png' | relative_url }}" alt="Architecture diagram of 3D Collapse U-Net and the Vision Transformer dimension-collapse module">
+  <img loading="lazy" decoding="async" src="{{ '/assets/img/projects/radar-architecture.webp' | relative_url }}" alt="Architecture diagram of 3D Collapse U-Net and the Vision Transformer dimension-collapse module">
   <figcaption>3D Collapse U-Net and its Vision Transformer dimension-collapse module. Cropped from Figure 2 of the open-access paper (CC BY 4.0).</figcaption>
 </figure>
 
