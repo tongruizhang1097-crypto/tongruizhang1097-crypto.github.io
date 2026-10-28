@@ -21,14 +21,6 @@
   max-width: 48rem;
 }
 
-.academic-note {
-  background: var(--academic-wash);
-  border-left: 3px solid var(--academic-accent);
-  border-radius: 0.2rem;
-  margin: 1.5rem 0;
-  padding: 1rem 1.2rem;
-}
-
 .academic-grid {
   display: grid;
   gap: 1rem;
@@ -93,5 +85,40 @@
 @media (max-width: 576px) {
   .academic-lede {
     font-size: 1.06rem;
+  }
+}
+
+/* Keep journal names and access labels legible in the bibliography output. */
+.publications .periodical em::after {
+  content: "\00a0";
+  white-space: pre;
+}
+
+.academic-cv-download {
+  display: inline-block;
+  font-weight: 600;
+  margin: 0.35rem 0;
+}
+
+.academic-cv-entry {
+  border-top: 1px solid var(--academic-rule);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  line-height: 1.5;
+  padding: 0.8rem 0;
+}
+
+.academic-cv-date {
+  color: var(--academic-accent);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .academic-cv-entry {
+    gap: 0.25rem;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
