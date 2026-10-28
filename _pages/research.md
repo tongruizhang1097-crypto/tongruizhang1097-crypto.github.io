@@ -22,7 +22,7 @@ nav_order: 1
   <div class="academic-card"><h3>Visual navigation and map intelligence</h3><p>Connecting perception, localization, map matching, and route-level reasoning for robust mobile-robot navigation.</p></div>
 </div>
 
-<div class="academic-note">The long-term goal is to develop spatial-intelligence methods that are robust enough for real environments, transparent enough to diagnose, and efficient enough to deploy. These are current and prospective doctoral directions pursued under the supervision of Professor Jianda Han; they are not presented as completed publications or validated doctoral results.</div>
+<p>My long-term goal is to develop spatial-intelligence methods that are robust in real environments, interpretable, and efficient enough to deploy.</p>
 
 ## Completed research record
 
@@ -45,7 +45,7 @@ The published contribution statements identify Tongrui Zhang as method/software 
 
 ### Robotics and edge AI
 
-My 2024 undergraduate thesis developed a remote-control and target-recognition workflow for a dual-screw-driven amphibious robot. It combined a Raspberry Pi and control electronics with an improved YOLOv8s detector, model pruning, and deployment on a Huawei Atlas 200I DK A2 edge platform. The thesis reports that the improved detector raised precision by **6.9 percentage points**, mAP@0.5 by **1.1 points**, and mAP@0.5:0.95 by **1.5 points** against its YOLOv8s baseline while maintaining recall. Pruning reduced parameters from **11,126,358** to **8,936,846** and operations from **28.4G** to **22.2G**.
+My amphibious robotics project developed a remote-control and target-recognition workflow for a dual-screw-driven amphibious robot. It combined a Raspberry Pi and control electronics with an improved YOLOv8s detector, model pruning, and deployment on a Huawei Atlas 200I DK A2 edge platform. The project evaluation reported that the improved detector raised precision by **6.9 percentage points**, mAP@0.5 by **1.1 points**, and mAP@0.5:0.95 by **1.5 points** against its YOLOv8s baseline while maintaining recall. Pruning reduced parameters from **11,126,358** to **8,936,846** and operations from **28.4G** to **22.2G**.
 
 ## Methods represented in completed work
 

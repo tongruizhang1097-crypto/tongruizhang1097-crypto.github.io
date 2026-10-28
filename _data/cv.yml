@@ -1,10 +1,10 @@
 cv:
   name: Tongrui Zhang
   label: PhD Student
-  email: ""
+  email: 1120260297@mail.nankai.edu.cn
   location: Tianjin, China
   image: assets/img/profile.jpg
-  summary: PhD student at the College of Artificial Intelligence, Nankai University, studying how embodied systems can build reliable spatial understanding from incomplete and changing sensory observations. Current interests connect visual perception, localization, spatial representation, uncertainty-aware sensor fusion, map matching, and mobile-robot navigation. Academic email is written as 1120260297 [at] mail.nankai.edu.cn to reduce automated harvesting.
+  summary: PhD student at the College of Artificial Intelligence, Nankai University, studying how embodied systems can build reliable spatial understanding from incomplete and changing sensory observations. Current interests connect visual perception, localization, spatial representation, uncertainty-aware sensor fusion, map matching, and mobile-robot navigation.
 
   social_networks:
     - network: ORCID
@@ -122,7 +122,7 @@ cv:
     Patent Application:
       - name: A Device and Method for Joint SOC and SOH Estimation of Lithium-Ion Batteries
         date: 2022
-        summary: Published Chinese invention patent application CN202210656043.X. The supplied CNIPA notice records publication and entry into substantive examination on 29 September 2022; no claim is made about grant status.
+        summary: Published Chinese invention patent application CN202210656043.X. Published in 2022.
 
     Awards:
       - title: First-class National Award
@@ -153,23 +153,10 @@ cv:
         awarder: 7th China International College Students' Internet+ Innovation and Entrepreneurship Competition
         summary: 7th China International College Students' Internet+ Innovation and Entrepreneurship Competition; vibration measurement analyzer project.
 
-    Experience:
-      - company: Tianjin Focus Metal Products Co., Ltd.
-        position: Assistant to Project Manager
-        location: Tianjin, China
-        start_date: 2022-06
-        end_date: 2022-08
-
-      - company: Zhonglian Tiantong Technology (Tianjin) Co., Ltd.
-        position: Laboratory Technician
-        location: Tianjin, China
-        start_date: 2021-07
-        end_date: 2021-08
-
     Skills:
       - name: Engineering and analysis tools
         icon: fa-solid fa-screwdriver-wrench
-        keywords: "MATLAB, SolidWorks, AutoCAD, Excel"
+        keywords: "Python, MATLAB, ANSYS, SolidWorks, AutoCAD, Excel"
       - name: Research methods evidenced in completed work
         icon: fa-solid fa-microscope
         keywords: "Deep Learning, Radar Semantic Segmentation, Support Vector Machines, Kalman Filtering, Dempster–Shafer Fusion, YOLOv8, Model Pruning, Edge Deployment"

@@ -7,7 +7,7 @@ first_name: Tongrui
 middle_name:
 last_name: Zhang
 contact_note: >
-  Academic contact: 1120260297 [at] mail.nankai.edu.cn
+  Academic contact: 1120260297@mail.nankai.edu.cn
 description: >
   Academic homepage of Tongrui Zhang, a PhD student at the College of Artificial Intelligence, Nankai University. Research interests include visual perception, localization, spatial representation, sensor fusion, and navigation.
 footer_text: >
@@ -35,7 +35,7 @@ repo_theme_dark: dark # https://github.com/stats-organization/github-stats-exten
 # `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
 # it to the clipboard instead of opening a mail client.
 # See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
-protect_email: true
+protect_email: false
 
 # Off by default: the free public github-profile-trophy instance is disabled
 # (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy

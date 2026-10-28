@@ -14,8 +14,6 @@ related_publications: false
 
 <p class="academic-lede">Four peer-reviewed studies approach battery health management from different angles: temperature-aware state-of-charge estimation, progressive fault classification, nonlinear remaining-life prediction, and reliability-aware fusion of data-driven and model-based estimators.</p>
 
-<div class="academic-note">This grouping is editorial. The papers are separate studies and are not presented as one integrated system.</div>
-
 <figure class="academic-project-figure">
   <img src="{{ '/assets/img/projects/battery-testbench.png' | relative_url }}" alt="Battery test system used for fault-data collection">
   <figcaption>Battery testing equipment shown in the 2023 fault-diagnosis paper (CC BY 4.0).</figcaption>

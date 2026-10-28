@@ -33,9 +33,9 @@ I am a PhD student in the College of Artificial Intelligence at Nankai Universit
 My doctoral interests connect learning-based visual perception, localization, spatial representation, multi-sensor information fusion, and map-aware navigation for mobile robots. My earlier research spans radar semantic segmentation, lithium-ion battery diagnosis and remaining-life prediction, and visual perception for an amphibious robot. Across these projects, I have worked with high-dimensional sensing, machine learning, state estimation, evidence fusion, and edge deployment.
 
 <div class="academic-grid" aria-label="Academic profile at a glance">
-  <div class="academic-card"><span class="academic-stat">5</span><span class="academic-label">verified journal articles</span></div>
+  <div class="academic-card"><span class="academic-stat">5</span><span class="academic-label">journal articles</span></div>
   <div class="academic-card"><span class="academic-stat">3</span><span class="academic-label">awarded degrees across China, the United States, and Canada</span></div>
-  <div class="academic-card"><span class="academic-stat">1</span><span class="academic-label">undergraduate thesis in robotics and edge AI</span></div>
+  <div class="academic-card"><span class="academic-stat">1</span><span class="academic-label">robotics and edge AI project</span></div>
 </div>
 
 ## Current research interests
@@ -59,14 +59,10 @@ My doctoral interests connect learning-based visual perception, localization, sp
   </div>
 </div>
 
-<div class="academic-note">
-  <strong>Research record and future direction are kept separate.</strong> The interests above describe current doctoral directions. Quantitative claims elsewhere on this site refer only to completed, source-verified work.
-</div>
-
 ## Background
 
 I received a B.E. in Mechanical Design, Manufacturing and Automation from Dalian Maritime University and a B.S. in Mechanical Engineering from the University of Houston through their joint program in 2024. My M.Eng. in Mechanical Engineering (Energy and Environment) was formally awarded by the University of Calgary in June 2026. Since September 2026, I have been pursuing a PhD at Nankai University under the supervision of Professor Jianda Han.
 
-For academic correspondence, use **1120260297 [at] mail.nankai.edu.cn**. My ORCID is [0009-0007-1650-7075](https://orcid.org/0009-0007-1650-7075).
+For academic correspondence, use **[1120260297@mail.nankai.edu.cn](mailto:1120260297@mail.nankai.edu.cn)**. My ORCID is [0009-0007-1650-7075](https://orcid.org/0009-0007-1650-7075).
 
 Explore the [research overview](/research/), [publications](/publications/), [projects](/projects/), or [academic CV](/cv/).
