@@ -24,7 +24,7 @@ related_publications: false
 The control architecture combines onboard video capture, a Raspberry Pi, a control board, propulsion and external rotor motors, and a power-carrier board. Remote control and visual feedback form a coordinated workflow.
 
 <figure class="academic-project-figure">
-  <img loading="lazy" decoding="async" src="{{ '/assets/img/projects/amphibious-system.webp' | relative_url }}" alt="Hardware and signal-flow architecture of the amphibious robot control system">
+  <img loading="lazy" decoding="async" src="{{ '/assets/img/projects/amphibious-system-fast.webp' | relative_url }}" alt="Hardware and signal-flow architecture of the amphibious robot control system">
   <figcaption>Hardware and signal flow developed for the project.</figcaption>
 </figure>
 
