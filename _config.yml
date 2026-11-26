@@ -239,9 +239,6 @@ exclude:
   - gems/
   - migrations/
   - vendor
-  # Copied into the built site as a raw download by _plugins/copy_skill_download.rb.
-  # Excluded here so Jekyll does not render the skill's front matter as a page.
-  - assets/skills/paper-figure-code/SKILL.md
 keep_files:
   - CNAME
   - .nojekyll
