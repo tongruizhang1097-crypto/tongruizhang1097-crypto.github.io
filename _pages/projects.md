@@ -2,21 +2,21 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research and engineering projects by Tongrui Zhang.
+description: Selected research, engineering, and tool projects by Tongrui Zhang.
 nav: true
 nav_order: 3
-display_categories: [research, engineering]
+display_categories: [research, engineering, tools]
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
 
 <div class="academic-kicker">Selected work</div>
 
-<p class="academic-lede">Selected research and engineering projects span radar perception, battery health, and mobile robotics.</p>
+<p class="academic-lede">Selected research and engineering projects span radar perception, battery health, and mobile robotics. A tools entry describes reusable assistant software.</p>
 
 <div class="academic-projects">
 {% for category in page.display_categories %}
-  <h2 id="{{ category }}">{% if category == "research" %}Research projects{% else %}Robotics project{% endif %}</h2>
+  <h2 id="{{ category }}">{% if category == "research" %}Research projects{% elsif category == "engineering" %}Robotics project{% elsif category == "tools" %}Tools{% endif %}</h2>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <div class="academic-project-grid">
